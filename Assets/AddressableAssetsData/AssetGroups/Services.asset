@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Services
+  m_EditorClassIdentifier: 
+  m_GroupName: Services
+  m_GUID: 71f43b2169e73324c94808c215010d75
+  m_SerializeEntries:
+  - m_GUID: 1f03ffeb3124d1e4b92a80da80ba1791
+    m_Address: UIService
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e796754dcfbb324bbb7ff6653386bfb
+    m_Address: AudioService
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49fbbca6c0dc3b64aa3086a1086b188f
+    m_Address: InputService
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6476a823086687e49b43fd8bba2206df, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 557d22ee9d9ce614b8b9cc2e227234e5, type: 2}
+    - {fileID: 11400000, guid: 0f86b752fe5bfc843a9b617147f9bd5c, type: 2}
